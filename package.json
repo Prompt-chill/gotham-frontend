@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Prompt-chill/gotham-frontend#readme",
   "devDependencies": {
+    "@types/leaflet": "^1.9.20",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "@typescript-eslint/eslint-plugin": "^8.45.0",
@@ -35,5 +36,9 @@
     "react-dom": "^19.2.0",
     "typescript": "^5.9.3",
     "vite": "^7.1.9"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "react-leaflet": "^5.0.0"
   }
 }
