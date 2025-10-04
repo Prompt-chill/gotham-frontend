@@ -1,0 +1,19 @@
+.navbarContainer {
+    display: flex;
+    background-color: #1a1c1f;
+    padding: 0 16px;
+    height: auto;
+}
+
+.navbarButton {
+    height: 64px;
+    padding: 0 16px;
+    background: transparent;
+    border: none;
+    color: inherit;
+}
+
+.navbarButton:hover {
+    background-color: #25282b;
+    transition: background-color 0.18s ease;
+}
