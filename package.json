@@ -1,0 +1,23 @@
+{
+  "name": "gotham-frontend",
+  "version": "1.0.0",
+  "description": "Front-end web for the \"gotham\" HackYeah 2025 project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prompt-chill/gotham-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prompt-chill/gotham-frontend/issues"
+  },
+  "homepage": "https://github.com/Prompt-chill/gotham-frontend#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
