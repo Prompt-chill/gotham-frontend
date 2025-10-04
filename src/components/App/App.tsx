@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-    <div>
+    <div className="appMount">
       <h1>TBD</h1>
     </div>
     </>

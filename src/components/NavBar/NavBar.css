@@ -1,6 +1,12 @@
+:root {
+    --theme-main: #173652;
+    --theme-main-light: #1c4a72;
+}
+
 .navbarContainer {
     display: flex;
-    background-color: #1a1c1f;
+    background-color: var(--theme-main);
+    color: white;
     padding: 0 16px;
     height: auto;
 }
@@ -14,6 +20,6 @@
 }
 
 .navbarButton:hover {
-    background-color: #25282b;
+    background-color: var(--theme-main-light);
     transition: background-color 0.18s ease;
 }

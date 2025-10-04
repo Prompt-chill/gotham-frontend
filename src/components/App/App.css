@@ -1,1 +1,7 @@
-    
+.appMount {
+    width: 100%;
+}
+
+.appMount>h1 {
+    margin: 0;
+}
