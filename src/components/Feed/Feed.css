@@ -1,15 +1,9 @@
 .feedContainer {
     width: 25%;
-    background-color: rgb(149, 149, 149);
+    background-color: rgb(200, 200, 200);
     height: calc(100vh - 64px);
     display: flex;
     flex-direction: column;
-}
-
-.feedHeader {
-    padding: 16px;
-    background-color: rgb(120, 120, 120);
-    color: white;
 }
 
 .feedHeader h2 {
@@ -19,7 +13,6 @@
 .feedContent {
     flex: 1;
     overflow-y: auto;
-    padding: 16px;
 }
 
 .feedContent::-webkit-scrollbar {
@@ -34,8 +27,7 @@
 .feedItem {
     background-color: white;
     padding: 16px;
-    margin-bottom: 12px;
-    border-radius: 8px;
+    margin-bottom: 1px;    
 }
 
 .feedItem h3 {
