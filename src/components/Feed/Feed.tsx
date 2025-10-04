@@ -2,13 +2,13 @@ import './Feed.css'
 
 function Feed() {
   return (
-    <div className='FeedContainer'>
-      <div className='FeedHeader'>
+    <div className='feedContainer'>
+      <div className='feedHeader'>
         <h2>Feed</h2>
       </div>
-      <div className='FeedContent'>
+      <div className='feedContent'>
         {Array.from({ length: 20 }).map((_, i) => (
-          <div key={i} className='FeedItem'>
+          <div key={i} className='feedItem'>
             <h3>Alert {i + 1}</h3>
             <p>Description</p>
           </div>

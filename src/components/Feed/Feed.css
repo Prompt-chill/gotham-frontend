@@ -1,4 +1,4 @@
-.FeedContainer {
+.feedContainer {
     width: 25%;
     background-color: rgb(149, 149, 149);
     height: calc(100vh - 64px);
@@ -6,43 +6,43 @@
     flex-direction: column;
 }
 
-.FeedHeader {
+.feedHeader {
     padding: 16px;
     background-color: rgb(120, 120, 120);
     color: white;
 }
 
-.FeedHeader h2 {
+.feedHeader h2 {
     margin: 0;
 }
 
-.FeedContent {
+.feedContent {
     flex: 1;
     overflow-y: auto;
     padding: 16px;
 }
 
-.FeedContent::-webkit-scrollbar {
+.feedContent::-webkit-scrollbar {
     display: none;
 }
 
-.FeedContent {
+.feedContent {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
 
-.FeedItem {
+.feedItem {
     background-color: white;
     padding: 16px;
     margin-bottom: 12px;
     border-radius: 8px;
 }
 
-.FeedItem h3 {
+.feedItem h3 {
     margin: 0 0 8px 0;
 }
 
-.FeedItem p {
+.feedItem p {
     margin: 0;
     color: #666;
 }
