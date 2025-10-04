@@ -1,0 +1,16 @@
+.header-container {
+    width: 100%;
+    height: 64px;
+    background-color: black ;
+}
+
+.header-content {
+    padding: 0 16px 0 16px;
+}
+
+.home-button {
+    height: 100%;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
