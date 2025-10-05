@@ -33,10 +33,10 @@ const alertIcons: Record<Alert['type'], L.DivIcon> = {
 };
 
 const alertTypeLabels: Record<Alert['type'], string> = {
-  'NEW_FLIGHT': 'Nowy lot',
+  'NEW_FLIGHT': 'New Flight',
   'ALARM': 'Alarm',
-  'MISC': 'Inne',
-  'EXPLOSION_OR_CRASH': 'Eksplozja/Katastrofa'
+  'MISC': 'Misc',
+  'EXPLOSION_OR_CRASH': 'Explosion/Crash'
 };
 
 function MapOverlay() {

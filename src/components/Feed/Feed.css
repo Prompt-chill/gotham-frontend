@@ -27,7 +27,7 @@
 .feedItem {
     background-color: white;
     padding: 16px;
-    margin-bottom: 1px;    
+    margin-bottom: 1px;
 }
 
 .feedItem h3 {
@@ -37,4 +37,8 @@
 .feedItem p {
     margin: 0;
     color: #666;
+}
+
+.feedItem p:first-of-type {
+    font-size: 12px;
 }
