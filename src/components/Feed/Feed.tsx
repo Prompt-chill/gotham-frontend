@@ -14,7 +14,7 @@ const alertTypeLabels: Record<Alert['type'], string> = {
   'NEW_FLIGHT': 'New Flight',
   'ALARM': 'Alarm',
   'MISC': 'Misc',
-  'EXPLOSION_OR_CRASH': 'Explosion/Crash  '
+  'EXPLOSION_OR_CRASH': 'Explosion/Crash'
 };
 
 function Feed() {
@@ -26,7 +26,7 @@ function Feed() {
     fetch('/api-demo/alerts.json')
       .then(response => {
         if (!response.ok) {
-          throw new Error('Nie udało się pobrać alertów');
+          throw new Error("Couldn't fetch alerts");
         }
         return response.json();
       })
