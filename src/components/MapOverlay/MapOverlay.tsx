@@ -18,7 +18,7 @@ L.Icon.Default.mergeOptions({
 function MapOverlay() {
   return (
     <>
-      <div className='mapOvelayC  ontainer'>
+      <div className='mapOvelayContainer'>
         <MapContainer 
           center={position} 
           zoom={6} 
