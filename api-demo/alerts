@@ -1,0 +1,82 @@
+[
+  {
+    "alertId": 20007192,
+    "flightId": 10006293,
+    "timestamp": 1727913000,
+    "type": "NEW_FLIGHT",
+    "location": [52.237049, 21.017532],
+    "locationName": "Warszawa"
+  },
+  {
+    "alertId": 20007193,
+    "flightId": 10006294,
+    "timestamp": 1727913600,
+    "type": "ALARM",
+    "location": [50.064651, 19.944981],
+    "locationName": "Kraków"
+  },
+  {
+    "alertId": 20007194,
+    "flightId": 10006295,
+    "timestamp": 1727914200,
+    "type": "MISC",
+    "location": [51.107883, 17.038538],
+    "locationName": "Wrocław"
+  },
+  {
+    "alertId": 20007195,
+    "flightId": 10006296,
+    "timestamp": 1727914800,
+    "type": "EXPLOSION_OR_CRASH",
+    "location": [54.372158, 18.638306],
+    "locationName": "Gdańsk"
+  },
+  {
+    "alertId": 20007196,
+    "flightId": 10006297,
+    "timestamp": 1727915400,
+    "type": "NEW_FLIGHT",
+    "location": [52.409538, 16.931992],
+    "locationName": "Poznań"
+  },
+  {
+    "alertId": 20007197,
+    "flightId": 10006298,
+    "timestamp": 1727916000,
+    "type": "ALARM",
+    "location": [51.759247, 19.455982],
+    "locationName": "Łódź"
+  },
+  {
+    "alertId": 20007198,
+    "flightId": 10006299,
+    "timestamp": 1727916600,
+    "type": "MISC",
+    "location": [53.428940, 14.553020],
+    "locationName": "Szczecin"
+  },
+  {
+    "alertId": 20007199,
+    "flightId": 10006300,
+    "timestamp": 1727917200,
+    "type": "NEW_FLIGHT",
+    "location": [53.132489, 23.168840],
+    "locationName": "Białystok"
+  },
+  {
+    "alertId": 20007200,
+    "flightId": 10006301,
+    "timestamp": 1727917800,
+    "type": "ALARM",
+    "location": [50.270908, 19.039993],
+    "locationName": "Katowice"
+  },
+  {
+    "alertId": 20007201,
+    "flightId": 10006302,
+    "timestamp": 1727918400,
+    "type": "MISC",
+    "location": [51.246452, 22.568445],
+    "locationName": "Lublin"
+  }
+]
