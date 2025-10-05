@@ -10,7 +10,6 @@ function NavBar() {
               <img src="../../../favicon.png" width="50px" height="50px"/>
             </div>
         </button>
-        <button className='navbarButton'>TODO</button>
     </div>
     </>
   )
