@@ -10,6 +10,7 @@ interface Alert {
   type: 'MISC' | 'EXPLOSION_OR_CRASH' | 'NEW_FLIGHT' | 'ALARM';
   location: [number, number];
   locationName: string;
+  description: string;
 }
 
 const position: L.LatLngExpression = [52.237049, 21.017532];
@@ -52,9 +53,12 @@ function MapOverlay() {
       });
   }, []);
 
-  const formatTime = (timestamp: number): string => {
+  const formatDateTime = (timestamp: number): string => {
     const date = new Date(timestamp * 1000);
-    return date.toLocaleTimeString('pl-PL', { 
+    return date.toLocaleString('pl-PL', { 
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
       hour: '2-digit', 
       minute: '2-digit' 
     });
@@ -81,7 +85,9 @@ function MapOverlay() {
               <Popup>
                 <strong>{alertTypeLabels[alert.type]}</strong><br />
                 {alert.locationName}<br />
-                {formatTime(alert.timestamp)}
+                {formatDateTime(alert.timestamp)}<br />
+                <br />
+                <div style={{ fontSize: '13px' }}>{alert.description}</div>
               </Popup>
             </Marker>
           ))}

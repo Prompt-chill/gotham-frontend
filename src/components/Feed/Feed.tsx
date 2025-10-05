@@ -8,6 +8,7 @@ interface Alert {
   type: 'MISC' | 'EXPLOSION_OR_CRASH' | 'NEW_FLIGHT' | 'ALARM';
   location: [number, number];
   locationName: string;
+  description: string;
 }
 
 const alertTypeLabels: Record<Alert['type'], string> = {
@@ -40,9 +41,12 @@ function Feed() {
       });
   }, []);
 
-  const formatTime = (timestamp: number): string => {
+  const formatDateTime = (timestamp: number): string => {
     const date = new Date(timestamp * 1000);
-    return date.toLocaleTimeString('pl-PL', { 
+    return date.toLocaleString('pl-PL', { 
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
       hour: '2-digit', 
       minute: '2-digit' 
     });
@@ -78,7 +82,8 @@ function Feed() {
         {alerts.map((alert) => (
           <div key={alert.alertId} className='feedItem'>
             <h3>{alertTypeLabels[alert.type]}</h3>
-            <p>{formatTime(alert.timestamp)} - {alert.locationName}</p>
+            <p>{formatDateTime(alert.timestamp)} - {alert.locationName}</p>
+            <p style={{ marginTop: '8px', fontSize: '14px' }}>{alert.description}</p>
           </div>
         ))}
       </div>
@@ -86,4 +91,4 @@ function Feed() {
   );
 }
 
-export default Feed;
+export default Feed;  
